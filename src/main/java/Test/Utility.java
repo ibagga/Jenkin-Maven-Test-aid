@@ -15,11 +15,36 @@ public class Utility {
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\i077219\\Desktop\\TrashBin\\chrome driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("http://10.54.139.155:8082/Jenkin-Maven-Web-aid/");  
+		driver.get("https://timesofindia.indiatimes.com/");  
 		String title = driver.getTitle();
 		System.out.print("Title is : " + title);
 		 	
 
 	}
+	@Test
+	public static void main2()
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\i077219\\Desktop\\TrashBin\\chrome driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://timesofindia.indiatimes.com/");  
+		String title = driver.getTitle();
+		System.out.print("Title is : " + title);
+		 	
+
+	}
+	
+	@Test
+	public static void main3()
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\i077219\\Desktop\\TrashBin\\chrome driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://timesofindia.indiatimes.com/");  
+		String title = driver.getTitle();
+		System.out.print("Title is : " + title);
+		 	
+
+	}
+
+
 
 }
