@@ -15,7 +15,7 @@ public class Utility {
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\i077219\\Desktop\\TrashBin\\chrome driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://timesofindia.indiatimes.com/");  
+		driver.get("http://localhost:8082/Jenkin-Maven-Web-aid/");  
 		String title = driver.getTitle();
 		System.out.print("Title is : " + title);
 		 	
@@ -26,7 +26,7 @@ public class Utility {
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\i077219\\Desktop\\TrashBin\\chrome driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://timesofindia.indiatimes.com/");  
+		driver.get("http://localhost:8082/Jenkin-Maven-Web-aid/");  
 		String title = driver.getTitle();
 		System.out.print("Title is : " + title);
 		 	
@@ -38,7 +38,7 @@ public class Utility {
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\i077219\\Desktop\\TrashBin\\chrome driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://timesofindia.indiatimes.com/");  
+		driver.get("http://localhost:8082/Jenkin-Maven-Web-aid/");  
 		String title = driver.getTitle();
 		System.out.print("Title is : " + title);
 		 	

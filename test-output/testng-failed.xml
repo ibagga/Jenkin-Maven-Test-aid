@@ -5,7 +5,9 @@
     <classes>
       <class name="Test.Utility">
         <methods>
-          <include name="main1"/>
+          <include name="main"/>
+          <include name="main2"/>
+          <include name="main3"/>
         </methods>
       </class> <!-- Test.Utility -->
     </classes>
